@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+	width: 300px;
+    height: 500px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    overflow: hidden;
+	background-color: #f1f1f1;
+	padding:20px;
+	text-align:center;
+}
+img{
+	width:250px;
+}
+p{
+	font-size:26px;
+	margin-top:-20px;
+}
+h1{
+	font-size:45px;
+	margin-top:0;
+}
+button{
+	padding:10px;
+	background-color:#fe625a;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	font-size:20px;
+	cursor:pointer;
+}
+
+button:hover{
+	background-color:#fa925a;
+}
